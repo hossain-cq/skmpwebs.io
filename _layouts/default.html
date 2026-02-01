@@ -6,29 +6,27 @@
 
   <title>{{ page.title }}</title>
 
-  <!-- COPY ENTIRE <head> CONTENT FROM index.html -->
-  <!-- NO CHANGES -->
-   <!-- Fonts -->
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
-  <link rel="icon" type="image/png" href="static/favicon.png">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" href="{{ '/static/favicon.png' | relative_url }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" crossorigin="anonymous">
 
   <!-- Styles -->
-  <link rel="stylesheet" href="static/style.css">
+  <link rel="stylesheet" href="{{ '/static/style.css' | relative_url }}">
 
-	<meta property="og:title" content="Dr. Hossain, Ph.D. | Computational Materials & Quantum Research">
-	<meta property="og:description" content="Research at the intersection of AI, DFT, and Quantum Computing.">
-	<meta property="og:image" content="https://hossain-cq.github.io/static/profile.png"> <meta property="og:url" content="https://hossain-cq.github.io/">
-	<meta property="og:type" content="website">
-	<meta name="twitter:card" content="summary_large_image">
-  
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="Research at the intersection of AI, DFT, and Quantum Computing.">
+  <meta property="og:image" content="{{ '/static/profile.png' | absolute_url }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body>
@@ -47,6 +45,6 @@
 
 {% include footer.html %}
 
-<script src="static/script.js"></script>
+<script src="{{ '/static/script.js' | relative_url }}"></script>
 </body>
 </html>
