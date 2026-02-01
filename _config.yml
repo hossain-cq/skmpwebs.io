@@ -1,0 +1,9 @@
+title: Hossain Quantum Research
+description: Computational Materials, AI, and Quantum Algorithms
+
+markdown: kramdown
+
+collections:
+  pages:
+    output: true
+    permalink: /:name/
