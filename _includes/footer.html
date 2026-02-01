@@ -14,8 +14,10 @@
   </div>
 
   <div class="footer-bottom">
-    © <span id="year"></span> Hossain Computational & Quantum Research
+    © {{ site.time | date: "%Y" }} Hossain Computational & Quantum Research
     <span class="footer-sep">•</span>
-    <span class="footer-updated">Last updated: <span id="lastUpdated"></span></span>
+    <span class="footer-updated">
+      Last updated: {{ site.time | date: "%b %Y" }}
+    </span>
   </div>
 </footer>
