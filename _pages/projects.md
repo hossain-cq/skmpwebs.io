@@ -76,9 +76,9 @@ permalink: /projects/
              alt="VQE workflow" class="active" loading="lazy">
         <img src="{{ '/static/projects/vqe/active_space_1.jpg' | relative_url }}"
              alt="Active space" loading="lazy">
-        <img src="{{ '/static/projects/vqe/dissociation_relative_energy.jpg' | relative_url }}"
+        <img src="{{ '/static/projects/vqe/dissociatoin_relative_energy.jpg' | relative_url }}"
              alt="Dissociation profile" loading="lazy">
-      </div>
+     </div>
     </article>
 
   </div>
