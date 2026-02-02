@@ -101,20 +101,15 @@ title: Home | Hossain Quantum Research
   </div>
   
   <div class="current-focus">
-  <h3>Current research directions</h3>
+  <h3>Current Research Directions</h3>
 
   <ul>
     <li>
-      Physics-informed machine learning for voltage prediction
-      in complex alkali-ion battery materials.
+      Molecular drug benchmarking using QC.
     </li>
     <li>
       Active-space and subspace-based quantum algorithms for
       excited-state and spectral problems.
-    </li>
-    <li>
-      Reproducible workflows integrating DFT, AIMD, and
-      interpretable ML models.
     </li>
   </ul>
 </div>
@@ -157,7 +152,7 @@ title: Home | Hossain Quantum Research
   </div>
 
   <div class="conference-card">
-  <h4>Invited Talks & Conferences</h4>
+  <h4>Conference & Seminar Activity</h4>
 
   <div class="conference-visual" id="conferenceSlider">
     <img src="{{ '/static/conferences/conf1.jpg' | relative_url }}"
@@ -172,7 +167,7 @@ title: Home | Hossain Quantum Research
   </div>
 
   <div class="conference-caption">
-    Selected academic talks, seminars, and conference presentations.
+    Selected conference and seminar photographs.
   </div>
 </div>
 
