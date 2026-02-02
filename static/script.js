@@ -136,3 +136,19 @@ function openWhatsApp() {
   window.open(fullUrl, '_blank', 'noopener,noreferrer');
 }
 
+(function () {
+  const slider = document.getElementById("conferenceSlider");
+  if (!slider) return;
+
+  const images = slider.querySelectorAll("img");
+  if (images.length < 2) return;
+
+  let index = 0;
+  setInterval(() => {
+    images[index].classList.remove("active");
+    index = (index + 1) % images.length;
+    images[index].classList.add("active");
+  }, 7000); // slow, subtle
+})();
+
+
