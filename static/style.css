@@ -1246,13 +1246,21 @@ input:focus, textarea:focus{
   font-size: 0.75rem;
   color: var(--muted);
 }
-.hero .card {
-  min-height: 240px;
+.mini-stats .stat {
+  min-height: 210px;   /* try 220px if you want a bit more */
+  padding: 1.5rem;
 }
-.hero .card h3 {
+.mini-stats .stat-num {
   text-align: center;
 }
-.hero .card p,
-.hero .card li {
-  color: rgba(255, 255, 255, 0.88);
+.mini-stats .stat-label {
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.5;
 }
+.mini-stats .stat {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+
