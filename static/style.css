@@ -1305,3 +1305,36 @@ input:focus, textarea:focus{
 .current-focus li {
   margin-bottom: 0.45rem; /* slightly tighter list */
 }
+/* Conference image container */
+.conference-visual {
+  aspect-ratio: 4 / 3;          /* keep your chosen ratio */
+  background: rgba(0,0,0,0.25); /* subtle letterbox background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Conference images */
+.conference-visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;          /* SHOW FULL IMAGE */
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
+/* Active image */
+.conference-visual img.active {
+  opacity: 1;
+}
+.conference-card h4 {
+  text-align: center;
+}
+
+.conference-caption {
+  text-align: center;
+  margin-top: 0.6rem;
+  font-size: 0.75rem;
+  color: rgba(255,255,255,0.75);
+}
+
