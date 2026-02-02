@@ -1246,9 +1246,6 @@ input:focus, textarea:focus{
   font-size: 0.75rem;
   color: var(--muted);
 }
-.hero {
-  padding-bottom: 5rem;
-}
 .hero .card {
   min-height: 240px;
 }
@@ -1258,5 +1255,4 @@ input:focus, textarea:focus{
 .hero .card p,
 .hero .card li {
   color: rgba(255, 255, 255, 0.88);
-  line-height: 1.5;
 }
