@@ -1256,3 +1256,6 @@ input:focus, textarea:focus{
     transparent
   );
 }
+.hero {
+  padding-bottom: 5rem;
+}
