@@ -99,6 +99,25 @@ title: Home | Hossain Quantum Research
       </div>
     </div>
   </div>
+  
+  <div class="current-focus">
+  <h3>Current research directions</h3>
+
+  <ul>
+    <li>
+      Physics-informed machine learning for voltage prediction
+      in complex alkali-ion battery materials.
+    </li>
+    <li>
+      Active-space and subspace-based quantum algorithms for
+      excited-state and spectral problems.
+    </li>
+    <li>
+      Reproducible workflows integrating DFT, AIMD, and
+      interpretable ML models.
+    </li>
+  </ul>
+</div>
 
 </div>
 
