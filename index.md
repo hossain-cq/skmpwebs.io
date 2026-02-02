@@ -137,6 +137,27 @@ title: Home | Hossain Quantum Research
     </div>
   </div>
 
+  <div class="conference-card">
+  <h4>Invited Talks & Conferences</h4>
+
+  <div class="conference-visual" id="conferenceSlider">
+    <img src="{{ '/static/conferences/conf1.jpg' | relative_url }}"
+         alt="Invited talk at international conference"
+         class="active">
+
+  <img src="{{ '/static/conferences/conf2.jpg' | relative_url }}"
+         alt="Poster presentation at academic workshop">
+
+  <img src="{{ '/static/conferences/conf3.jpg' | relative_url }}"
+         alt="Invited seminar at research institute">
+  </div>
+
+  <div class="conference-caption">
+    Selected academic talks, seminars, and conference presentations.
+  </div>
+</div>
+
+
 </div>
 </section>
 
