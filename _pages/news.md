@@ -1,6 +1,6 @@
 ---
 layout: default
-title: News | Hossain Quantum Research
+title: News | Dr. Hossain Quantum Research
 permalink: /news/
 ---
 
