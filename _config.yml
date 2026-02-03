@@ -1,5 +1,8 @@
 title: Hossain Quantum Research
-description: Computational Materials, AI, and Quantum Algorithms
+description: Computational Materials, AI/ML, and Quantum Algorithms
+
+url: https://hossain-cq.github.io
+baseurl: ""
 
 markdown: kramdown
 
