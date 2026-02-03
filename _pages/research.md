@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Research | Hossain Quantum Research
+title: Research | Dr. Hossain Quantum Research
 permalink: /research/
 ---
 
