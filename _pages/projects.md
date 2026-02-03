@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Projects | Hossain Quantum Research
+title: Projects | Dr. Hossain Quantum Research
 permalink: /projects/
 ---
 
