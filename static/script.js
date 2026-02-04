@@ -154,9 +154,23 @@ const toggle = document.querySelector('.nav-toggle');
 const nav = document.querySelector('.nav');
 
 if (toggle && nav) {
+
+  // Toggle menu on hamburger click
   toggle.addEventListener('click', () => {
     const isOpen = nav.classList.toggle('open');
     toggle.setAttribute('aria-expanded', isOpen);
   });
+
+  // Auto-close menu when a link is clicked (mobile UX)
+  nav.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      if (nav.classList.contains('open')) {
+        nav.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+  });
+
 }
+
 
