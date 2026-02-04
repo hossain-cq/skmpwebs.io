@@ -1337,4 +1337,26 @@ input:focus, textarea:focus{
   font-size: 0.75rem;
   color: rgba(255,255,255,0.75);
 }
+/* === Mobile scroll fix === */
+html, body {
+  height: auto;
+  overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: auto;
+    height: auto;
+    overflow: visible;
+  }
+}
+
+.main-content {
+  overflow: visible;
+}
+
+.bg {
+  pointer-events: none;
+}
+
 
