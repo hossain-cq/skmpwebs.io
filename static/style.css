@@ -1472,6 +1472,34 @@ html, body {
   }
 
 }
+@media (max-width: 768px) {
+
+  /* Re-layout header on mobile */
+  .topbar-inner {
+    display: flex;
+    align-items: center;
+  }
+
+  /* Keep brand on the left */
+  .brand {
+    flex: 1;
+  }
+
+  /* Group hamburger with actions */
+  .topbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+
+  /* Place hamburger visually next to / under CTA */
+  .nav-toggle {
+    order: 2;
+    margin-left: 0.4rem;
+  }
+
+}
+
 
 
 
