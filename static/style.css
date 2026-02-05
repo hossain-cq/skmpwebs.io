@@ -1606,4 +1606,25 @@ html[data-theme="light"] .nav a[aria-current="page"] {
     display: none;
   }
 }
+/* ================================
+   Light mode readability fixes
+================================ */
+
+html[data-theme="light"] .stat,
+html[data-theme="light"] .card,
+html[data-theme="light"] .current-focus {
+  color: #1a1a1a;
+}
+
+html[data-theme="light"] .stat-label,
+html[data-theme="light"] .current-focus li {
+  color: #333;
+}
+
+html[data-theme="light"] .stat-num,
+html[data-theme="light"] h2,
+html[data-theme="light"] h3 {
+  color: #6d28d9; /* accent purple */
+}
+
 
