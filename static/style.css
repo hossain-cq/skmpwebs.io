@@ -1595,4 +1595,15 @@ html[data-theme="light"] .nav a {
 html[data-theme="light"] .nav a[aria-current="page"] {
   color: #7c3aed; /* your accent purple */
 }
+@media (max-width: 768px) {
+  .project-visual img {
+    position: static;
+    opacity: 1 !important;
+    transform: none;
+  }
+
+  .project-visual img:not(:first-child) {
+    display: none;
+  }
+}
 
