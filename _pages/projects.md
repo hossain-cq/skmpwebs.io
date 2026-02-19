@@ -52,10 +52,13 @@ permalink: /projects/
     </article>
 
   <article class="card card-gradient">
-      <h3>Quantum chemistry workflows with VQE and qEOM</h3>
+      <h3>Quantum Computing Workflows and Benchmarking </h3>
       <p>
-        Reproducible quantum chemistry workflows for ground and excited-state
-        simulations of molecular systems relevant to energy storage.
+        Reproducible quantum computing workflows for quantum chemistry simulations, 
+        focusing on reliable ground- and excited-state calculations for realistic molecular systems. 
+        The work  emphasizes benchmarking, validation, and method development for problems relevant to 
+        areas such as energy storage, molecular design, and drug discovery, with particular attention to 
+        accuracy, scalability, and computational efficiency.
       </p>
 
   <ul class="project-meta">
@@ -65,7 +68,12 @@ permalink: /projects/
       </ul>
 
   <div class="card-footer">
-        <span class="badge status-badge">Manuscript in prep</span>
+     <a class="link"
+           href="https://doi.org/10.1002/qute.202500871"
+           target="_blank" rel="noopener">
+          Publication →
+        </a>
+        <span class="badge">Electrolytes</span>
         <span class="badge">VQE</span>
         <span class="badge">qEOM</span>
         <span class="badge">SQD</span>
